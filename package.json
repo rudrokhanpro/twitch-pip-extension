@@ -1,0 +1,15 @@
+{
+  "name": "twitch-pip",
+  "version": "0.0.1",
+  "description": "Get Picture-in-picture for yout favorite Twitch stream in a click",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-extension",
+    "twitch",
+    "picture-in-picture"
+  ],
+  "author": "Rudro Khan (@rudrokhanpro)",
+  "license": "ISC"
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Picture-in-picture",
+  "description": "Get Picture-in-picture for your favorite Twitch stream in a click",
+  "version": "0.1",
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_icon": "assets/twitch-pip.png"
+  },
+  "background": {
+    "service_worker": "src/scripts/background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "scripting"
+  ]
+}
